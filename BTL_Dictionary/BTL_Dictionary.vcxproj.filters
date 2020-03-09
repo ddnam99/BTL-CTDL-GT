@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{91957f91-408b-4e45-9db7-3f2ca1482284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File\Liên quan">
+      <UniqueIdentifier>{1dd5f1eb-a147-4844-892a-eecc7251e3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File\Liên quan\Data">
+      <UniqueIdentifier>{9e6fc21f-063e-4295-8426-158f567cfce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File\Liên quan\Data\Root">
+      <UniqueIdentifier>{90c0d71b-38f8-4dba-b3ab-8afb5e31b139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File\Liên quan\Data\FileSub">
+      <UniqueIdentifier>{e0e6b172-c0b4-4ef7-a598-2895b86ef9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File\Liên quan\Python">
+      <UniqueIdentifier>{75efe654-ef0d-4009-8d80-e0b2717353f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataProcessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Document.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Báo cáo BTL CTDL&amp;GT.docx">
+      <Filter>File</Filter>
+    </None>
+    <None Include="..\Báo cáo BTL CTDL&amp;GT.pdf">
+      <Filter>File</Filter>
+    </None>
+    <None Include="SourceData\FileData\SubFile.exe">
+      <Filter>File\Liên quan\Data</Filter>
+    </None>
+    <None Include="SourceData\FileData\SubFile.py">
+      <Filter>File\Liên quan\Data</Filter>
+    </None>
+    <None Include="SourceData\FileData\Root\AnhViet.dict">
+      <Filter>File\Liên quan\Data\Root</Filter>
+    </None>
+    <None Include="SourceData\FileData\Root\ConvertFileRootToFinally.exe">
+      <Filter>File\Liên quan\Data\Root</Filter>
+    </None>
+    <None Include="SourceData\SourcePython\ConvertToTitleVnese.py">
+      <Filter>File\Liên quan\Python</Filter>
+    </None>
+    <None Include="SourceData\SourcePython\CountWorld.py">
+      <Filter>File\Liên quan\Python</Filter>
+    </None>
+    <None Include="SourceData\SourcePython\DeleteFileConvertToTitle.py">
+      <Filter>File\Liên quan\Python</Filter>
+    </None>
+    <None Include="SourceData\SourcePython\ConvertFileRootToFinally [Fillter + Count].py">
+      <Filter>File\Liên quan\Python</Filter>
+    </None>
+    <None Include="SourceData\SourcePython\ConvertToTitleEV.py">
+      <Filter>File\Liên quan\Python</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SourceData\FileData\Root\Finally.txt">
+      <Filter>File\Liên quan\Data\Root</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\Root\Root.txt">
+      <Filter>File\Liên quan\Data\Root</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\Root\TempRoot.txt">
+      <Filter>File\Liên quan\Data\Root</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV8.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV9.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV10.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV11.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV12.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV13.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV14.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV15.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV16.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV17.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV18.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV19.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV20.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV21.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV22.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV23.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV24.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV25.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV26.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV27.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV28.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV29.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV30.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV31.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV32.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV33.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV34.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV35.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV36.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV37.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV38.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV39.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV40.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV1.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV2.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV3.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV4.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV5.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV6.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+    <Text Include="SourceData\FileData\FileSub\DictEV7.txt">
+      <Filter>File\Liên quan\Data\FileSub</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
